@@ -1,0 +1,107 @@
+{
+  "routes": [
+    {
+      "name": ["Request", "Find"],
+      "tabs": [
+        {
+          "name": "รายการคำร้อง",
+          "link": {
+            "name": "Request"
+          }
+        }
+      ],
+      "breadcrumbs": [
+        {
+          "name": "ระบบย้าย",
+          "link": {
+            "name": "Request",
+            "params": {
+              "status": "ok"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": ["OwnerIn", "InfHouse1", "InfHouse2"],
+      "tabs": [
+        {
+          "name": "บ้านย้ายออก",
+          "link": {
+            "name": "OwnerIn",
+            "params": {
+              "status": "ok",
+              "page": "OwnerIn"
+            }
+          }
+        },
+        {
+          "name": "บ้านย้ายเข้า",
+          "link": {
+            "name": "InfHouse1",
+            "params": {
+              "status": "ok",
+              "page": "infHouse1"
+            }
+          }
+        },
+        {
+          "name": "รายการบ้าน 2",
+          "link": {
+            "name": "InfHouse2",
+            "params": {
+              "status": "ok",
+              "page": "infHouse2"
+            }
+          }
+        }
+      ],
+      "breadcrumbs": [
+        {
+          "name": "ระบบย้าย",
+          "link": {
+            "name": "Request",
+            "params": {
+              "status": "ok"
+            }
+          }
+        },
+        {
+          "name": "รายละเอียดคำร้อง",
+          "link": {
+            "name": "Informer"
+          }
+        }
+      ]
+    },
+    {
+      "breadcrumbs": [
+        {
+          "name": "ระบบย้าย",
+          "link": {
+            "name": "Request",
+            "params": {
+              "status": "ok"
+            }
+          }
+        },
+        {
+          "name": "รายละเอียดคำร้อง",
+          "link": {
+            "name": "Informer"
+          }
+        }
+      ]
+    }
+  ],
+  "navigationItems": [
+    {
+      "icon": "mdi-format-list-bulleted",
+      "text": "รายการคำร้อง",
+      "link": {
+        "name": "Request",
+        "status": "ok"
+      }
+    }
+  ]
+}
